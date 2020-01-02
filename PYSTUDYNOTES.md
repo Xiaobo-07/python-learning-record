@@ -1,5 +1,3 @@
-[TOC](目录)
-
 # Python学习笔记
 
 <div style="text-align: right"> Author: Xiaobo </div>
@@ -37,3 +35,9 @@ hello, world
 #### 1.1.3 Python with Visul Studio Code
 比较了很多Python编辑器，诸如pycharm，sublime等，最终选择了VS Code. VSCode是一个非常轻量化的编辑器，支持插件扩展，如果调教好了的话将会是一个十分趁手的开发环境。\
 关于VS Code开发Python的配置网上很多就不列举了。
+
+## 二、基础知识
+### 2.1.1 Hello World
+Hello World是所有编程者学习的第一个程序，在Python中也不例外。所以我们将开始学习如何用Python打印Hello World.
+
+首先新建一个文件命名为 hello.py
