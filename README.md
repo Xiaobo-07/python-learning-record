@@ -1,5 +1,4 @@
-# hello-world
+# 介绍
+记录了我学习Python的一些过程与心得。
 
-Make some changes and test them
-
-This is Xiaobo  here, nice to meet you!
+希望能够对看到的人有一定的帮助
