@@ -40,4 +40,17 @@ hello, world
 ### 2.1.1 Hello World
 Hello World是所有编程者学习的第一个程序，在Python中也不例外。所以我们将开始学习如何用Python打印Hello World.
 
-首先新建一个文件命名为 hello.py
+首先新建一个文件命名为 hello.py 然后在文件中写入一下内容：
+```python
+print('Hello, World!')
+```
+然后 Ctrl + s 保存，再在前面一节中所讲的cmd命令行窗口中用以下运行我们的第一个Python程序：
+```html
+C:\Users\Xiaobo>cd D:\User_Files\python\study
+
+C:\Users\Xiaobo>d:
+
+D:\User_Files\python\study>python hello.py
+Hello, World!
+```
+如果运行过程中没有报任何的错误，那么恭喜你，你的第一个Python程序就完成了。
