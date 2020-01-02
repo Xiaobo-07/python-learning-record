@@ -1,8 +1,8 @@
+[TOC](目录)
+
 # Python学习笔记
 
 <div style="text-align: right"> Author: Xiaobo </div>
-
-[TOC](目录)
 
 ## 一、基础准备
 
