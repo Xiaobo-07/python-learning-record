@@ -1,5 +1,7 @@
 # Python学习笔记
+
 <div style="text-align: right"> Author: Xiaobo </div>
+
 ## 一、基础准备
 ### 1.1 Python环境配置
 进行Python开发之前需要安装Python或者核实已经安装了它。
