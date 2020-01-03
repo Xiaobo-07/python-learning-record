@@ -41,7 +41,7 @@ hello, world
 ### 2.1 Hello World
 Hello World是所有编程者学习的第一个程序，在Python中也不例外。所以我们将开始学习如何用Python打印Hello World.
 
-首先新建一个文件命名为 hello.py 然后在文件中写入一下内容：
+首先新建一个文件命名为 hello.py 然后在文件中写入以下内容：
 ```python
 print('Hello, World!')
 ```
@@ -124,7 +124,7 @@ print(message,num)
 print(message,num,sep = '',end = '\t')
 ```
 
-数据的格式化输出，使用与一个print()输出多组数据和提示符
+数据的格式化输出，适用于一个print()输出多组数据和提示符
 ```python
 #方法一: %xxx的格式化输出，其中%xxx是占位符，需要写明变量类型
 name = '小明'
