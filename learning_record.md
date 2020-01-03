@@ -310,4 +310,4 @@ if语句练习之成绩转换
 		及格    >=60, <70
 		不及格  <60
 ```
-参考程序[conv_grade.py](code\conv_grade.py)
+参考程序[conv_grade.py](./code/conv_grade.py)
