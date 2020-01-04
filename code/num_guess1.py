@@ -24,6 +24,8 @@ for i in range(3):
         break
     elif num_guess < 1 or num_guess > 10:
         print('请输入1~10内的数字')
+    else:
+        pass    
     count -= 1
-    if count == 0:
-        print('很遗憾，游戏结束')
+else:
+    print('很遗憾，游戏结束')
