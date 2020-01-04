@@ -311,3 +311,91 @@ if语句练习之成绩转换
 		不及格  <60
 ```
 参考程序[conv_grade.py](./code/conv_grade.py)
+
+### 3.2 循环语句
+
+循环语句的应用场景：
+- 用户登录，当用户输入的账号或者密码不正确时需要重新输入
+- 猜数字游戏，当玩家没猜中数字时会让玩家重新猜测，直到猜中数字为止
+
+实际应用中当然还有很多类似的例子。
+
+#### 3.2.1 for循环
+语法结构：
+
+```
+for 变量 in 集合:
+	...
+	...
+	...
+```
+
+我们注意到，如果要执行 for 循环语句就必须有一个参数的集合来指定循环的次数，所以我们就要提到一个Python的内置函数 `range()` 这个函数可以产生一个整数集。关于 `range()` 函数的用法我们可以先打开在cmd命令行操作窗口打开Python环境输入`help(range)`得到以下结果：
+
+```
+>>> help(range)
+Help on class range in module builtins:
+
+class range(object)
+ |  range(stop) -> range object
+ |  range(start, stop[, step]) -> range object
+ |
+ |  Return an object that produces a sequence of integers from start (inclusive)
+ |  to stop (exclusive) by step.  range(i, j) produces i, i+1, i+2, ..., j-1.
+ |  start defaults to 0, and stop is omitted!  range(4) produces 0, 1, 2, 3.
+ |  These are exactly the valid indices for a list of 4 elements.
+ |  When step is given, it specifies the increment (or decrement).
+```
+
+从帮助里我们不难得到`range()`函数的用法：
+1. 可以输入可以是一个变量也可以是多个变量
+2. 返回一个整型数列
+3. 如果输入一个变量则默认从0开始产生一个数列，步长默认为1
+4. 产生数列的范围包含开头不包含结束
+
+```python
+range(start, stop, step)
+'''
+start:数列开始的数字
+stop:数列结束的数字
+step:步长
+'''
+#用法：
+range(0,10,1) #产生0, 1, 2, 3, 4, 5, 6, 7, 8, 9的一个数列
+range(1,10,2) #产生1, 3, 5, 7, 9的数列
+range(0,10) #生成0-9的数列步长为1同range(0,10,1)
+range(10) #默认start = 0, step = 1
+```
+
+一个简单的案例：用 for 循环打印三遍Hello, world!
+```python
+for i in range(2):
+	print('Hello, World!')
+#这里的i就是变量，range(2)就是集合
+```
+接下来可以做一个小练习了，我们都玩过这样一个游戏，1个青蛙，1一张嘴，2个眼睛，4条腿。现在我们要用Python来打印1-20数青蛙。
+```
+练习1：数青蛙游戏
+要求：
+	1. 输出格式'x只青蛙x张嘴x个眼睛x条腿，扑通扑通跳下水'
+	2. 输出1,2,3...,20
+	3. 要求使用for循环
+	4. 用range()函数产生数列
+```
+参考程序[count_frogs.py](./code/count_frogs.py)
+```
+练习2：猜数字游戏
+要求：
+	1. 从1~10中随机产生一个数字
+	2. 玩家可以从键盘输入数字进行猜测
+	3. 玩家共有3次机会
+	4. 如果玩家输入的数字超出答案范围(1~10)则警告
+	5. 每次输入前提示玩家剩余次数
+提示：
+	产生随机数需要
+	'''
+	 import random
+	 random.randint(1,10)
+	'''
+```
+参考程序[num_guess1.py](./code/num_guess1.py)
