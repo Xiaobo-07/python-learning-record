@@ -102,3 +102,165 @@ str3 = str0[-4:-1] #结果为 def 不包含-1
 所以当我们想要逆序一个字符串的时候就可以这样来做:`str1 = str0[::-1]`
 
 ## 5. 字符串内置函数
+
+<table border=0 cellpadding=0 cellspacing=0 width=1034 style='border-collapse:
+ collapse;table-layout:fixed;width:775pt'>
+ <col class=xl67 width=143 style='mso-width-source:userset;mso-width-alt:4565;
+ width:107pt'>
+ <col class=xl67 width=891 style='mso-width-source:userset;mso-width-alt:28501;
+ width:668pt'>
+ <tr height=24 style='height:18.0pt'>
+  <td height=24 class=xl66 width=143 style='height:18.0pt;width:107pt'><font
+  class="font6">函数</font></td>
+  <td class=xl66 width=891 style='width:668pt'><font class="font6">描述</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>capitalize()</td>
+  <td class=xl65>功能：首字母大写，返回新的字符串</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl67 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.capitalize()</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td rowspan=2 height=50 class=xl69 style='height:37.0pt'>title()</td>
+  <td class=xl65>功能：将每个单词的首字母大写，返回新的字符串</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.title()</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td rowspan=2 height=50 class=xl69 style='height:37.0pt'>istitle()</td>
+  <td class=xl65>功能：判断每个单词的首字母是否是大写，返回值为布尔值</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.istitle()</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>upper()</td>
+  <td class=xl65>功能：将所有字母转成大写,返回新的字符串</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.upper()</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td rowspan=2 height=50 class=xl69 style='height:37.0pt'>lower()</td>
+  <td class=xl65>功能：将所有字母转成小写，返回新的字符串</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.lower()</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td rowspan=2 height=50 class=xl69 style='height:37.0pt'>swapcase()</td>
+  <td class=xl65>功能：将字符串中的大小写转换,返回新的字符串</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.swapcase()</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td rowspan=2 height=50 class=xl69 style='height:37.0pt'>len()</td>
+  <td class=xl65>功能：计算字符串的长度，返回一个整型数值</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">len(str)</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td rowspan=2 height=50 class=xl69 style='height:37.0pt'>count()</td>
+  <td class=xl65>功能：统计字符串中某个元素的数量，返回一个整型数值</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.count(char)</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td rowspan=2 height=50 class=xl69 style='height:37.0pt'>find()</td>
+  <td class=xl65>功能：查找某个字符串在一定范围内第一次出现的位置，并返回索引值，如果没有查找到则返回-1</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.find(str s, int beg, int end)(default: beg = 0,end =
+  len(str))</font></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.5pt'>
+  <td height=25 class=xl67 style='height:18.5pt'>rfind()</td>
+  <td rowspan=2 class=xl70><font class="font6">功能：查找最右侧或者最左侧第一次出现某元素的位置，并返回索引值，没有查到则返回</font><font
+  class="font7">-1</font></td>
+ </tr>
+ <tr height=24 style='height:18.0pt'>
+  <td height=24 class=xl67 style='height:18.0pt'>lfind()</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl67 style='height:18.5pt'>index()</td>
+  <td class=xl68><font class="font6">功能用法同</font><font class="font7">find()</font><font
+  class="font6">，区别在于如果没找到会报异常</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>replace()</td>
+  <td class=xl65>功能：替换字符串中指定字符，返回新的字符串</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">格式：</font><font
+  class="font7">str.repalce(old,new,max)(max</font><font class="font6">指定则替换最多不超过</font><font
+  class="font7">max</font><font class="font6">次</font><font class="font7">)</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>isalpha()</td>
+  <td class=xl65>功能：判断字符串是否全由字母组成</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">用法：</font><font
+  class="font7">str.isalpha()</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>isdigit()</td>
+  <td class=xl65>功能：判断字符串是否全由数字组成</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">用法：</font><font
+  class="font7">str.isdigit()</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>join()</td>
+  <td class=xl65>功能：将一个列表按某种规则连接成字符串</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">用法：</font><font
+  class="font7">''.join(seq)</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>strip()</td>
+  <td class=xl65>功能：去掉指定的字符串，默认为换行</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">用法：</font><font
+  class="font8">str.strip(str)</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>lstrip()</td>
+  <td class=xl65>功能：从左侧去除字符串的某个元素</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">用法：</font><font
+  class="font7">str.lstrip(char)</font></td>
+ </tr>
+ <tr height=23 style='height:17.5pt'>
+  <td rowspan=2 height=48 class=xl69 style='height:36.0pt'>split()</td>
+  <td class=xl65>功能：按照指定的字符进行切分字符串，默认为空格，返回一个列表</td>
+ </tr>
+ <tr height=25 style='height:18.5pt'>
+  <td height=25 class=xl68 style='height:18.5pt'><font class="font6">用法：</font><font
+  class="font7">str.split(char)</font></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=143 style='width:107pt'></td>
+  <td width=891 style='width:668pt'></td>
+ </tr>
+ <![endif]>
+</table>
