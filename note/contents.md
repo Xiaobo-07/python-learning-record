@@ -13,3 +13,5 @@
 - 条件与循环 [condition&loop.md](./condition&loop.md)
 
 - 字符串 [string.md](./string.md)
+
+- 列表与元组 [list.md](./list.md)
