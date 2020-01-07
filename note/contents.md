@@ -15,3 +15,5 @@
 - 字符串 [string.md](./string.md)
 
 - 列表与元组 [list.md](./list.md)
+
+- 字典 [dict.md](./dict.md)
